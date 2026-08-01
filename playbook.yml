@@ -1,0 +1,7 @@
+---
+- name: test paybook
+  host: all
+  tasks:
+          - name: print welocme message
+            debug:
+                    msg: "welcome to"
